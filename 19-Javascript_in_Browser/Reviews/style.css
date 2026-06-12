@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.type-review {
+    display: flex;
+    gap: 10px;
+}
+
+#input-review {
+    flex: 1;
+    padding: 10px;
+}
+
+#add-review {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.show-review {
+    margin-top: 20px;
+}
+
+.show-review p {
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

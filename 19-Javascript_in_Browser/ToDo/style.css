@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+.btn{
+    padding: 5px 20px ;
+    margin: 100px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out 0.2s;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px black;
+    border: 2px solid black;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container input {
+    margin-top: 20px;
+}
+
+.tasks{
+    margin-top: 10px;
+}
+.tasks li button {
+    background-color: red;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-input-btn button {
+    padding: 3px 6px;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.task-input-btn input {
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+
