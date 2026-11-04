@@ -3,13 +3,13 @@ pattern_seven(5);
 
 
 function pattern_seven(n) {
-    upperpart(n);
-    middlepart(n);
-    lowerpart(n);
+    upperPart(n);
+    middlePart(n);
+    lowerPart(n);
 
 };
 
-function upperpart(n) {
+function upperPart(n) {
     
     for(let i = 1; i <= (n-1)/2; i++){
         
@@ -29,7 +29,7 @@ function upperpart(n) {
         console.log(str);
     }
 }
-function middlepart(n) {
+function middlePart(n) {
     let str = "";
     for(let i = 1; i <= n; i++) {
         str += " * ";
@@ -37,7 +37,7 @@ function middlepart(n) {
     console.log(str);
 }
 
-function lowerpart(n){
+function lowerPart(n){
 
     
     for(let i = 1; i <= (n-1)/2; i++){
