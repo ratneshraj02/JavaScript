@@ -1,5 +1,5 @@
 /*
-    console.log() : This function take some input and displays than in the output.
+    console.log() : This function take some input and displays in the output.
 */
 
     console.log(10);  //10

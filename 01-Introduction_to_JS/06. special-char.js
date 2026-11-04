@@ -1,19 +1,19 @@
 //Special character
+// 1. Newline
+console.log("The new apple \niphone launched");
 
-// -> \n : Escape sequence - new 
-console.log("The new apple \n iphone launched");
+// 2. Tab
+console.log("The new apple \tiphone launched");
 
-// -> \t - one tab
-console.log('The new apple \t iphone launched');
+// 3. Form Feed
+console.log("The new apple \fiphone launched");
 
-// -> \f - form feed
-console.log('"The new apple iphone launched"');
+// 4. Double Quote
+console.log("The new \"apple\" iphone launched");
 
-// -> \"    \" - Double quote
-console.log('"The new apple iphone launched"');
+// 5. Single Quote
+console.log('The new \'apple\' iphone launched');
 
-// -> \'    \' - Single quote
-console.log("\'The new apple iphone launched\'");
-
-// -> \r - Carriage status
-console.log('The new apple \r iphone launched');
+// 6. Carriage Return
+console.log("The new apple \rphone"); 
+// Output will typically look like "phone" because it overwrites from the start of the line
