@@ -1,9 +1,21 @@
-/*pre increment & decrement
+/* Pre Fix */
 
-        ++x   --x
+/* ++a */
+/*
+    Step-1 : We first increment value of a  by 1.
+    Step-2 : assign value of a to y.
 */
-//e.g 
-let x = 10;
-let c = ++x;
-let y = ++c;
-console.log(x, c, y);// x = 11, c = 12, y = 12
+
+let a = 10;
+let y = ++a;
+console.log(a, y); // 11 11
+
+/* --b */
+/*
+    Step-1 : We first decrement value of b  by 1.
+    Step-2 : assign value of b to y.
+*/
+
+let b = 10;
+let x = --b;
+console.log(b, x); // 9 9
