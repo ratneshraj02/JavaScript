@@ -1,8 +1,7 @@
-//Bit Wise Operator
+//BitWise Operator
 
 /*
-    These operator doesn't directly operate on number, but intead operator on binary reprenatation
-    of number.
+    Bitwise operator perform the corresponding operation bit by bit on the given operand.
     
     bitwise AND  :  &
     bitwise OR   :  |

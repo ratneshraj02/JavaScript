@@ -4,9 +4,9 @@
 */
 
 //e.g : 
-console.log((true)? "sanket" : "ratnesh");
+console.log((true)? "Hello" : "World"); //Hello
 
-console.log((false)? "sanket" : "ratnesh");
+console.log((false)? "Hello" : "World"); //World
 
-let ans = (false)? "Ratnesh" : "Ratnesh Kumar"
-console.log(ans);
+let ans = (false)? "Good" : "Fair"
+console.log(ans); //Fair

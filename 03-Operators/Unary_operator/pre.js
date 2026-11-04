@@ -1,4 +1,4 @@
-/*pre incerement & decerment
+/*pre increment & decrement
 
         ++x   --x
 */

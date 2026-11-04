@@ -2,8 +2,8 @@
 
 
 /*
-    + : Concatent two string & return a new one(string).
+    + : Concatenate two string & return a new one(string).
 */
 
 //e.g : 
-console.log("abe" + "Ratnesh");  //abcRatnesh
+console.log("Hello" + " World");  //Hello World
