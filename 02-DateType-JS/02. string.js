@@ -1,5 +1,5 @@
-/* 
-    String : If we define anything in a banch of double qutes
+/*  
+    String : Collection of characters enclosed in single or double quotes.
 */
 
 console.log("a")  //a

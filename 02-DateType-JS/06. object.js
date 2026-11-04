@@ -1,8 +1,17 @@
 /*
     Object = Key : value pair.
-*/
 
-console.log({"ratnesh" : 1234}); //sanket : 1234
+    If we have to some how store data Key : value pair we can use objects.
+
+    Key : Value - Key will be unique.
+*/
+const ratneshObj = {
+    name : "Ratnesh Kumar",
+    company: "",
+    position : ""
+};
+
+console.log(ratneshObj);
 
 //type check
-console.log(typeof({"ratnesh" : 1234}));  //object
+console.log(typeof ratneshObj); //object
