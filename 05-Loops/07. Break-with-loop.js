@@ -1,5 +1,5 @@
 /*
-    Break Statament : Whenever we hit break we come out of the nearest loop.
+    Break Statement : Whenever we hit break we come out of the nearest loop.
 */
 
 //e.g:

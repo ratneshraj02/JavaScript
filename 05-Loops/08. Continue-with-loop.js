@@ -1,5 +1,5 @@
 /*
-    Continue : Whenever we hit continue we agin move to the nearest loop for execution.
+    Continue : Whenever we hit continue we again move to the nearest loop for execution.
 */
 //e.g
 for(let i = 0;i < 10;i++) {
