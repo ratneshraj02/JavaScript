@@ -1,7 +1,7 @@
 
 
 
-console.log(Symbol("Hello Wrold"));  //
+console.log(Symbol("Hello World"));  //
 
 
 // type check
