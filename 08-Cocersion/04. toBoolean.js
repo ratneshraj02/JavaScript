@@ -1,3 +1,10 @@
+/* To Boolean */
+/*
+   The ToBoolean abstract operation converts the given to a boolean value. ToBoolean works a bit differently when compared to ToString() as ToNumber() 
+
+   It maintains a list of values which when received as an argument returns false, and everything apart from the list of values returns true.
+*/
+
 /*  
         LIST OF FALSY VALUES:
                                 null
@@ -22,7 +29,7 @@
     else
         return True
 
-    consoel.log(!0);
+    console.log(!0);
 */
 //e.g:
 /*
