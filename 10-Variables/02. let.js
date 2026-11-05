@@ -1,13 +1,13 @@
 /* let */
 /*
-    Whenever be initialise a variable with it always get the scope of enclosing block.
+    Whenever be initializes a variable with it always get the scope of enclosing block.
 
 */
 function fun() {
     let y = 8;
     console.log(y);
 }
-fun();
+fun(); //8
 
 /*
     let keyword doesn't allow redeclaration
@@ -15,9 +15,9 @@ fun();
 // console.log(y); // y is not defined error
 
 /*
-    If we declare, let outsie any block then it doesn't get complete global scope.
+    If we declare, let outside any block then it doesn't get complete global scope.
 
     let doesn't allow redeclaration, but var does allows us
 
-    It you intialise a varible with let outside any block then also it will not be accessable completely in the global scope, but if you do with var, it will be.
+    It you initializes a variable with let outside any block then also it will not be accessible completely in the global scope, but if you do with var, it will be.
 */
