@@ -1,5 +1,5 @@
 /*
-    -> Abstract equlity(==) does coersion if types are not same.
+    -> Abstract equality(==) does coercion if types are not same.
 */
 
 //e.g : 

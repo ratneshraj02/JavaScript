@@ -1,5 +1,5 @@
 /*
--> Strict equality(===) never does coersion.
+-> Strict equality(===) never does coercion.
 */
 
 //e.g : 
@@ -11,8 +11,7 @@ console.log(0 === -0); //true
 console.log(-0 === 0); //true
 console.log(undefined === undefined);  //true
 console.log(null === null) //true
-console.log("sanket" === "sanket");  //true
-// console.log({ } === {}); //false
+console.log("World" === "World");  //true
 
 let x = {};
 console.log(x === x); //true
