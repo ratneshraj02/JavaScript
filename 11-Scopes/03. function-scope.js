@@ -5,13 +5,8 @@
 
  */
 function fun(){
-    var x = 10;
+    var x = 10; // Here x is accessible inside function or we can say this local to function
     console.log(x);
 }
 
 fun();
-
-// console.log(x);
-/*
-    Here x is accesable inside function or we can say this local to function.
- */

@@ -3,14 +3,14 @@ var teacher = "Sanket";
 function fun(){
     var teacher = "Pulkit";
     
-    console.log(teacher,teachingAssitant);
-    teachingAssitant = "Vibhav";  // eligible for global scope
+    console.log(teacher, teachingAssistant);
+    teachingAssistant = "Vibhav";  // eligible for global scope
 }
 
 function gun() {
     console.log(subject);
 
-    var subject = "JS"; //formal decelation
+    var subject = "JS"; //formal declaration
     
 }
 
@@ -22,7 +22,7 @@ function gun() {
 
 // gon();
 function gon() {
-    console.log("Hello Wrold");
+    console.log("Hello World");
 }
 
 var teacher1 = "Sanket";

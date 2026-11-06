@@ -1,6 +1,6 @@
 /* global scope */
 /*
-    If a variable is present in a global scope then it is accessable every where in the JS file, But how many ways. One of the way to define variable outside any function or block.
+    If a variable is present in a global scope then it is accessible every where in the JS file, But how many ways. One of the way to define/declare variable outside any function or block.
 
 */
 
@@ -14,5 +14,5 @@ function fun() {
     console.log("have fun ",name);
 }
 
-greet();
-fun();
+greet(); //greeting World
+fun(); //have fun World

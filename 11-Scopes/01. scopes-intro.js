@@ -5,7 +5,7 @@
     what are looking for?? we are look for variable and function.
 
     we have more or less 3 types of scope in JS.
-    1. Globel Scope
+    1. Global Scope
     2. Function Scope
     3. Block Scope
 
