@@ -1,13 +1,13 @@
 /* Promises Chaining  */
 /*
-    We can chain promises and make them pass teh resolved values to one another like this.
+    We can chain promises and make them pass the resolved values to one another like this.
 
     p.then(function (result) => {
         alert(result); return 2;
                 ........
                 ........
 
-    The idea is to pass the result throught the chain of .then handlers.
+    The idea is to pass the result thought the chain of .then handlers.
 
  */
 
@@ -21,13 +21,13 @@
 
 /* Attaching multiple handlers */
 /*
-    We can attach multiple handlers to one promise. they don't pass the result to each other; instead they process it independenlty.
+    We can attach multiple handlers to one promise. they don't pass the result to each other; instead they process it independently.
 
     let p is a promise
 
     p.then(handler1) ------>|
     p.then(handler2) ------>|
     p.then(handler3) ------>|
-                            |---> Runs Indepently
+                            |---> Runs Independently
  */
 

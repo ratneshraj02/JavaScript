@@ -1,7 +1,7 @@
 /*
-    1. Write a fuction to downlaod the url.
+    1. Write a function to download the url.
     2. Write a function to save that the downloaded file and return the filename.
-    3. Write a function to upload the file  written in previous step to a newurl.
+    3. Write a function to upload the file  written in previous step to a new url.
 */
 
 function fetchCustom(url, fn) {
@@ -10,7 +10,7 @@ function fetchCustom(url, fn) {
     console.log("Starting downloading from",url);
     setTimeout(function process(){
         console.log("Download completed");
-        let response = "Dammy data";
+        let response = "Dummy data";
         fn(response);
     },3000);
 }
@@ -23,21 +23,21 @@ function writeFile(data, fn){
     },4000);
 }
 
-function uploadFile(filename, newurl,fn) {
+function uploadFile(filename, newUrl,fn) {
     console.log("Upload stated");
     setTimeout( function process() {
-        console.log("File",filename, "uploaded succesfully on",newurl);
+        console.log("File",filename, "uploaded successfully on",newUrl);
         let uploadResponse = "success";
         fn(uploadResponse);
     },5000);
 }
 
-fetchCustom('www.google.com',function downlaodCallback(response){
+fetchCustom('www.google.com',function downloadCallback(response){
     console.log("Download response is",response);
     writeFile(response, function writeCallback(filenameResponse) {
         console.log("new written is",filenameResponse);
         uploadFile(filenameResponse,'www.drive.google.com',function uploadCallback(uploadResponse){
-            console.log("Successfully uploaed",uploadResponse);
+            console.log("Successfully upload",uploadResponse);
         })
     })    
 });
@@ -49,19 +49,39 @@ fetchCustom('www.google.com',function downlaodCallback(response){
 
     1. status
     2. values
-    3. on fullfillment
+    3. on fulfillment
     4. on reject
 
     1. status = Status shows current promises status.
-                i. Pending : 
-                            When we create a new promises object this is the default  state.
-                            It represent work in progress.
-                ii. fullfilled : If the operation is completed successfully.
-                iii. Rejected : It the operation is completed not successfully.
-    2. values - When status of the promise is "pending", this value property is undefined, the moment promise is resolved status fullfilled the value property is updated from undefined to the new value we can consider as the retured value resolved value. so, the value property acts like a placeholder till the time promise finished.
+        (i). Pending : 
+            When we create a new promises object this is the default  state. It represent work in progress.
+        (ii). fulfilled : If the operation is completed successfully.
+        (iii). Rejected : It the operation is completed not successfully.
 
-    3. On fullfillment : This is an array, which contains functions that we attach to our promise object. To a promise object we can attach some function using ".then() method".
+
+    2. values - When status of the promise is "pending", this value property is undefined, the moment promise is resolved status fulfilled the value property is updated from undefined to the new value we can consider as the returned value resolved value.
+
+    [New value we can consider as the returned value] resolved value
+    
+    so, the value property acts like a placeholder till the time promise finished.
+
+    3. On fulfillment : This is an array, which contains functions that we attach to our promise object. To a promise object we can attach some function using ".then() method".
 
     When the value property is updated from undefined, to the new value, JS gives chance to these attached function one by one with the value property as there argument (if these is no piece of code in the call stack & global code left).
+
+
+            Status
+
+            value
+
+            on fulfillment
+
+            [f, g, h ,i]
  */
+/*
+    return new Promise(function (resolve, reject){
+    
+    
+    });
+*/
 

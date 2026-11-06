@@ -1,27 +1,27 @@
 /* Promise Constructor */
 
 /*
-        |->Promise Constructor : This constructor takes callback as argument
-        |           */
+    This constructor takes callback as argument
+*/
 new Promise(function (resolve, reject) {
-    //write her logic
+    //write here logic
 });
 
 
 /*
-    To create a promise call the promise constructor. the promise constructor takes a callback as an argument. the callback passed inside constructor, expects, two arguments resolve, raject then inside the callback write your logic.
+    To create a promise call the promise constructor. the promise constructor takes a callback as an argument. the callback passed inside constructor, expects, two arguments resolve, reject then inside the callback write your logic.
 
  */
 
 /*
     If you want to return something as success, then call resolve function.
 
-    Q. When do we consider a promise fullfilled.
-    If we call resolve() function, we consider it fullfilled. we consider it rejected if we call reject().
+    Q. When do we consider a promise fulfilled.
+    If we call resolve() function, we consider it fulfilled. we consider it rejected if we call reject().
  */
 /* e.g  */
 function demo2(val) {
-    return new Promise(function(resolve, rejcet) {
+    return new Promise(function(resolve, reject) {
         console.log("Start");
         setTimeout(function process(){
             console.log("Completed Timer");
@@ -34,12 +34,12 @@ function demo2(val) {
                 reject("Odd");
             }
         }, 10000);
-        console.log("Somewher");
+        console.log("Somewhere");
     });
 };
 
 /*
-Note : A Promise is said to be settled if it is pending i.e if is either fullfilled or rejected.
+Note : A Promise is said to be settled if it is pending i.e if is either fulfilled or rejected.
 
 Creation of promise object is Sync
 */
