@@ -11,5 +11,5 @@
     }
 
     gun(function (){
-        //implelmetation
+        //implementation
     });

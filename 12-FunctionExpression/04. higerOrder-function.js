@@ -1,7 +1,23 @@
 /* Higher Order function */
 
 /*
+    These are functions that depends & operate on other function.
+
+    Higher order function takes another functions as an argument or return a function and then execute the logic.
+
     Takes one or multiple function as arguments, return a function.
+
+    e.g :
+        function gun(){
+        }
+
+        function fun(gun){ // fun - Higher Order function
+            ------
+            ------
+            gun();
+        }
+
+    
 */
 
 function multipleGreet(fn, n){
@@ -22,12 +38,12 @@ console.log("_____________________________________________________");
 function oddEvenFactory(request) {
     if(request == "odd"){
         return function(){
-            consoele.log(!(n%2 == 0));
+            console.log(!(n%2 == 0));
         }
     }
     else if(request == "even"){
         return function(){
-            consoele.log(n%2==0);
+            console.log(n%2==0);
         }
     }
     else {
@@ -38,7 +54,7 @@ oddEvenFactory("even");
 console.log("_____________________________________________________");
 
 /* Actions that can be performed on an object */
-const calcuator = {
+const calculator = {
     add: function(a, b){
         return a+b;
     },
@@ -62,3 +78,5 @@ const _calculator = {
         return a*b
     }
 };
+
+/* Some already built in Higher Order function */

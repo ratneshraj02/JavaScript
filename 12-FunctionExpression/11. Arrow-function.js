@@ -4,7 +4,7 @@
 
     syntax : 
             dataType varName = (arg1, arg2) => {
-                function defination
+                function definition
             }
 */
 
@@ -15,9 +15,9 @@ const sum = (a, b) => {
 /* call same as the function */
 sum(12, 12); //24
 
-/* Implict return
-    cosnt func = (arg1, arg2) => {
-        function defination
+/* Implicit return
+    const func = (arg1, arg2) => {
+        function definition
     };
 */
 /* e.g */

@@ -8,3 +8,14 @@
     There are two ways in which the callback may be called: synchronous and asynchronous. Synchronous callbacks are called immediately after the invocation of the outer function, with no intervening asynchronous tasks, while asynchronous callbacks are called at some point later, after an asynchronous operation has completed.
  */
 
+/* Problem with callback */
+/*
+    1. Inversion of Control :
+        If there is some part of code whose control we are passing to someone else, and we don't know how that part would the executed this problem is called inversion of control.
+
+    2. Callback hell :
+        Inside callback, inside callback again inside callback and so on is called callback hell.
+
+        callback hell is readability problem.
+*/
+

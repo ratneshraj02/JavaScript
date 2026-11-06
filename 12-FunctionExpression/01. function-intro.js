@@ -1,7 +1,7 @@
 /*
         ____________________________
         |  function name>(args){   | 
-        |       imp                | --> function defination
+        |       imp                | --> function definition
         |    }                     |
         |                          |
         |  var f = function(args){ | --------
