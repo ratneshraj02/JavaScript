@@ -1,7 +1,7 @@
 /*
-    setTimout();
+    setTimeout();
 
-        setTimout(task callback, timing in milesecond);
+        setTimeout(task callback, timing in millisecond);
  */
 /* e.g */
 setTimeout(function (){

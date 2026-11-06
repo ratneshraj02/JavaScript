@@ -1,7 +1,6 @@
 /* Callbacks */
-
 /*
-    A callback is a function that is passed to another function.
+    Higher order function those function, which takes a function as arguments. the function that you pass as argument is the callback function.
 */
 
 function fun(x, fn) {
@@ -10,7 +9,6 @@ function fun(x, fn) {
         fn - callback function
     */
     //some logic
-
     for(let i = 0; i <= x; i++) {
         console.log(i);
     }
@@ -19,7 +17,7 @@ function fun(x, fn) {
 
 fun(10, function log(){
     // this is the callback function
-    console.log("custom logger");
+   console.log('I am executed also');
 });
 /* 
     Once the function done, call stack memory will be empty 

@@ -33,22 +33,17 @@
 
 /*
     SetTimeout(); :-
-        It is a function that helps to executs some task once after a certain timer.
+        It is a function that helps to executes some task once after a certain timer.
 */
 
 /*
     SetInterval(); :-
-        It a function that helps us to executs some task again & again after a given interval.
+        It a function that helps us to executes some task again & again after a given interval.
  */
 
 /*
     When we understand setTimer() & setInterval() we first understand callbacks.
 */
 
-/* Callbacks */
-
-/*
-    
-*/
 
 

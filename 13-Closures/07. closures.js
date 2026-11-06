@@ -3,7 +3,7 @@
 /*
     Closures is when a function  remembers it's lexical scope even when the function is executed outside that lexical scope.
 
-    If todo is completed it will be removed from callstack how actually the vauable stall perist?
+    If todo is completed it will be removed from callstack how actually the variable stall persist?
 
     Where are they??
  */
@@ -19,6 +19,7 @@ function fun(task1, task2) {
 };
 fun("12", "34");
 
+console.log("\n -----\n");
 /* e.g */
 function test(){
     for(var i = 0; i < 3; i++){
@@ -27,3 +28,13 @@ function test(){
         }, i * 1000);
     };
 };
+
+test(); //
+
+console.log('\n -----\n');
+console.log("start");
+setTimeout(function () {
+    console.log("Hey");
+}, 0);
+console.log("End");
+

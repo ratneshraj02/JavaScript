@@ -1,6 +1,6 @@
 /* setInterval()
     
-    Same as the setTimout() it has also unique id.
+    Same as the setTimeout() it has also unique id.
 
 */
 /* e.g */
@@ -29,7 +29,7 @@ setTimeout(function (){
     console.log("done"); //done
 
 /*
-    At the time istance when function fun will be called, the "todo" function is already over.
+    At the time instance when function fun will be called, the "todo" function is already over.
 
     If fun is called after the completion of todo, & todo has ended, how fun is able to access "task variable"
 
