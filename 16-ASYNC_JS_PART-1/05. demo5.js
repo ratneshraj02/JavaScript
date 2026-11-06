@@ -1,5 +1,13 @@
-for(var i = 1 ; i < 5;i++){
+function process(){
+    console.log("Start");
     setTimeout(() => {
-        console.log("HI",i)
-    },i*1000);
+        console.log("task executed");
+    },0);
+    for(let i = 0;i < 10000000; i++){
+        //some task
+    }
+    console.log("end");
 }
+
+process();
+
