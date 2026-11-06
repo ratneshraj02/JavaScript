@@ -1,13 +1,13 @@
-//1. Write a fuction to downlaod the url.
+//1. Write a function to download the url.
 //2. write a function to save that the downloaded file and return the filename.
-//3. write a function to upload the file  written in previous step to a newurl.
+//3. write a function to upload the file  written in previous step to a new url.
 
 function fetchData(url){
     return new Promise(function(resolve, reject){
-        console.log("Started downloding from",url);
+        console.log("Started downloading from",url);
         setTimeout( function processDownloading(){ 
             let data = "Dummy Data";
-            console.log("Downlaoding Completed");
+            console.log("Downloading Completed");
             resolve(data)
         },7000);
     });
@@ -15,7 +15,7 @@ function fetchData(url){
 
 function WriteFile(data){
     return new Promise(function(resolve, reject){
-    console.log("Started writting",data,"in a file");
+    console.log("Started writing",data,"in a file");
     setTimeout(function processWriting(){
         let filename = "result.txt";
         console.log("File Written SuccessFully");
@@ -25,9 +25,9 @@ function WriteFile(data){
 }
 
 function uploadedFile(filename,url){
-    return new Promise(function(resolve, reaject){
+    return new Promise(function(resolve, reject){
     console.log("uploading stated on url",url,"filename is",filename);
-    setTimeout(function prcessuploading(){
+    setTimeout(function processUploading(){
         let result = "completed";
         console.log("Uploading done");
         resolve(result);
@@ -40,10 +40,10 @@ function uploadedFile(filename,url){
 
 async function processing() {
     let downloadingData = await fetchData("www.google.com");
-    console.log("await downlaodingData");
-    let writttingData = await WriteFile("rename");
+    console.log("await downloadingData");
+    let writingData = await WriteFile("rename");
     console.log(" await write file");
-    let uploadData = await uploadedFile("rname.txt","www.drive-google.com");
+    let uploadData = await uploadedFile("rightName.txt","www.drive-google.com");
     console.log("await uploading file");
 
     return true;
